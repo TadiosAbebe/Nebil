@@ -1,0 +1,31 @@
+nav {
+  overflow-y: hidden !important;
+}
+.navItemsWraper {
+  height: 100%;
+  position: relative;
+}
+.navItemsWraper div {
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.navItemsWraper a {
+  border-radius: 0 40px 40px 0;
+}
+.navItemsWraper a:hover {
+  background-color: white !important;
+  color: black !important;
+  transition: 0.5s ease;
+}
+.navItemsWraper a i {
+  transition: transform 1s;
+}
+.navItemsWraper a i:hover {
+  transform: rotate(-90deg);
+}
+.topNav a {
+  width: 20% !important;
+}
